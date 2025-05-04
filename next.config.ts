@@ -10,9 +10,7 @@ const nextConfig: NextConfig = {
   // Enable React strict mode for better development experience
   reactStrictMode: true,
   // Optimize for production
-  experimental: {
-    optimizeCss: true,
-  },
+  // Removed experimental optimizeCss to fix build issues
   // Configure output for static exports if needed
   output: 'standalone',
   // Configure redirects if needed

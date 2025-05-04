@@ -54,7 +54,7 @@ const BookNowPage = () => {
                 <div className="bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0">4</div>
                 <div>
                   <h3 className="font-semibold text-lg text-blue-800">Follow-Up</h3>
-                  <p className="text-blue-600">We'll check in to ensure your complete satisfaction with our service.</p>
+                  <p className="text-blue-600">We&apos;ll check in to ensure your complete satisfaction with our service.</p>
                 </div>
               </li>
             </ol>

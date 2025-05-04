@@ -114,7 +114,7 @@ export default function Home() {
             <div className="text-center p-6">
               <div className="text-blue-300 text-4xl mb-4">⏰</div>
               <h3 className="text-xl font-semibold mb-3">24/7 Emergency Service</h3>
-              <p className="text-blue-100">We're available around the clock for those unexpected home emergencies.</p>
+              <p className="text-blue-100">We&apos;re available around the clock for those unexpected home emergencies.</p>
             </div>
             
             <div className="text-center p-6">
@@ -136,7 +136,7 @@ export default function Home() {
       <section className="bg-blue-600 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to experience the Breeze difference?</h2>
-          <p className="text-xl mb-8">Schedule your service today and see why we're Chicagoland's preferred home service provider.</p>
+          <p className="text-xl mb-8">Schedule your service today and see why we&apos;re Chicagoland&apos;s preferred home service provider.</p>
           <Link href="/book-now" className="bg-white text-blue-600 hover:bg-blue-100 transition-colors py-3 px-8 rounded-full font-bold text-lg inline-block">
             Book Now
           </Link>
