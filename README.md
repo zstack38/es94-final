@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Breeze Home Solutions Website
+
+A professional website for Breeze Home Solutions, a home services company offering HVAC, Plumbing, and Electrical services in Chicagoland.
+
+## Features
+
+- **Modern Homepage**: Clean design showcasing company services and benefits
+- **Online Booking System**: Simple form for customers to schedule service appointments
+- **Mobile Responsive**: Fully responsive design for all device sizes
+- **SEO Optimized**: Proper meta tags and semantic HTML for better search engine visibility
+- **Fast Performance**: Built with Next.js for optimal loading speeds
+
+## Tech Stack
+
+- **Framework**: Next.js with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Configured for Vercel
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/src/app`: Main application pages
+  - `/page.tsx`: Homepage
+  - `/book-now/page.tsx`: Service booking page
+- `/src/components`: Reusable components
+  - `/layout`: Layout components (Header, Footer, Contact)
+  - `/ui`: UI components (BookingForm)
+- `/public/images`: Static images for the website
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is configured for easy deployment on Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push your code to a GitHub repository
+2. Connect the repository to Vercel
+3. Vercel will automatically build and deploy your site
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Alternatively, you can deploy manually:
 
-## Deploy on Vercel
+```bash
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Then deploy the generated `.next` folder to your hosting provider of choice.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+To customize the website for your needs:
+
+- Update service information in `/src/app/page.tsx`
+- Modify contact details in the Contact component
+- Replace placeholder images in `/public/images/`
+- Adjust colors and styling in the Tailwind classes
